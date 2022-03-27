@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Smart Client Test 1</title>
+
+    <!--Isomorphic Modules-->
+    <SCRIPT>var isomorphicDir = "Scripts/SmartClient/";</SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_Core.js"></SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_Foundation.js"></SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_Containers.js"></SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_Grids.js"></SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_Forms.js"></SCRIPT>
+    <SCRIPT SRC="~/Scripts/SmartClient/ISC_DataBinding.js"></SCRIPT>
+
+    <!-- Isomorphic Skins -->
+    <SCRIPT SRC="~/Contents/skins/EnterpriseBlue/load_skin.js"></SCRIPT>
+
+    <!-- JQuery -->
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <script>
+        isc.IButton.create({
+            ID: "Hello_Button",
+            title: "Hello",
+            width: 120,
+            height: 30,
+            click: function () {
+                isc.say("Hello World");
+            }
+        })
+    </script>
+</body>
+</html>

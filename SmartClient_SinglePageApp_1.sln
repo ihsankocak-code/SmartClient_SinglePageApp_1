@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartClient_SinglePageApp_1", "SmartClient_SinglePageApp_1\SmartClient_SinglePageApp_1.csproj", "{55D8C604-792C-43A4-B74E-0E8A4F53738E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55D8C604-792C-43A4-B74E-0E8A4F53738E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D8C604-792C-43A4-B74E-0E8A4F53738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D8C604-792C-43A4-B74E-0E8A4F53738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D8C604-792C-43A4-B74E-0E8A4F53738E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3657022E-98EE-4C06-85D1-9ED7C44953EE}
+	EndGlobalSection
+EndGlobal
